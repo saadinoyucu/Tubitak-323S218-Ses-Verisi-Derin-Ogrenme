@@ -1,0 +1,19 @@
+Bu depo, TÜBİTAK 1001 – 323S218 kodlu “Deprem Sonrası Psikolojik Etkilerin Yapay Zekâ ile Değerlendirilmesi: Anksiyete, Depresyon ve Travma Sonrası Stres Bozukluğu Tespiti” projesi kapsamında geliştirilen kaynak kodları içerir.
+
+Depo kapsamı:
+- Yalnızca eğitim, değerlendirme, raporlama ve görselleştirme için yazılmış kaynak kodlar ile model mimarisi çizimleri bulunur.
+- Ham ses kayıtları, katılımcı verileri, öznitelik CSV dosyaları, eğitilmiş model ağırlıkları ve deney çıktıları depoda yer almaz.
+- Kodlar, ses öznitelikleri üzerinden `kontrol` ve `hasta` sınıflarını ayırt etmeye yönelik deneysel iş akışını yürütür.
+
+Ana bileşenler:
+- `main_train.py`: Eğitim, test ve raporlama akışını başlatır.
+- `dataset_utils.py`: Veri yükleme, ölçekleme ve veri hazırlama işlemlerini yürütür.
+- `train_utils.py`: Model eğitim döngüsünü yönetir.
+- `eval_utils.py`: Değerlendirme metriklerini hesaplar ve test görsellerini üretir.
+- `report_utils.py`, `plot_utils.py`: Sonuçları özetler ve görselleştirir.
+- `model_tcn.py`, `model_cnn.py`, `model_tcn_lstm.py`: TCN, CNN+LSTM ve TCN+LSTM mimarilerini tanımlar.
+- `generate_all_graphs.py`, `generate_new_graphs.py`: Deney sonuçlarından grafik üretir.
+
+Kullanılan öznitelik temsilleri: `MFCC`, `HuBERT`, `Wav2Vec` ve `google-HeAR`.
+
+Not: Bu kodlar araştırma amaçlıdır; klinik tanı veya profesyonel değerlendirme aracı değildir.

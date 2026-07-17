@@ -1,0 +1,13 @@
+Bu klasör, TÜBİTAK 1001 – 323S218 kodlu “Deprem Sonrası Psikolojik Etkilerin Yapay Zekâ ile Değerlendirilmesi: Anksiyete, Depresyon ve Travma Sonrası Stres Bozukluğu Tespiti” projesinde kullanılan model mimarilerinin çizimlerini içerir.
+
+İçerik:
+- `tcn_architecture.drawio` ve `.png`: TCN mimarisi
+- `cnn_lstm_architecture.drawio` ve `.png`: CNN + LSTM mimarisi
+- `tcn_lstm_architecture.drawio` ve `.png`: TCN + LSTM mimarisi
+
+İlgili kaynak kodlar:
+- `../model_tcn.py`
+- `../model_cnn.py`
+- `../model_tcn_lstm.py`
+
+`.drawio` dosyaları düzenlenebilir kaynak çizimlerdir; PNG dosyaları ise hızlı görüntüleme için kullanılır.

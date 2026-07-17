@@ -1,0 +1,29 @@
+# Python önbellekleri ve sanal ortamlar
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter ve araç önbellekleri
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Ham/işlenmiş veri ve öznitelik tabloları
+*.csv
+*.parquet
+*.wav
+*.mp3
+*.flac
+
+# Eğitim çıktıları ve model ağırlıkları
+*.pt
+*.pth
+*.ckpt
+Results-And-Graph-2/
+Grafikler/
+
+# Yerel yapılandırma ve gizli bilgiler
+.env
+*.log
