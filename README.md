@@ -38,7 +38,7 @@ Desteklenen öznitelik türleri: `MFCC`, `HuBERT`, `Wav2Vec`, `google-HeAR` ve `
 
 ## Başlıca Bağımlılıklar
 
-`torch`, `torchaudio`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `librosa`, `soundfile`, `transformers`, `huggingface_hub` ve `tqdm`.
+`torch`, `torchaudio`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `librosa`, `soundfile`, `transformers` ve `tqdm`.
 
 ## Veri ve Çıktı Politikası
 
